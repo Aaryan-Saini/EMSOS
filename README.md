@@ -18,8 +18,6 @@ Welcome to the **Emergency Response App**, designed to **save lives** in critica
 - 📲 **Real-Time Alerts**: Instant notifications for nearby rescuers to act immediately.
 - 🗺️ **Google Maps Integration**: Locate hospitals, police stations, and other services.
 
----
-
 ## 🚀 **Technologies Used**
 
 ### **Frontend**
