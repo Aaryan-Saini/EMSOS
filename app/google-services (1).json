@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675155365094",
+    "project_id": "emergency-sos-d823f",
+    "storage_bucket": "emergency-sos-d823f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675155365094:android:7f8d49ef2f892595247f27",
+        "android_client_info": {
+          "package_name": "com.example.emergency_sos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeV8NW-o6uPtAJIx3FtDffWwwFL3oOUOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675155365094:android:73dbf56a9730a49e247f27",
+        "android_client_info": {
+          "package_name": "om.example.emergency_sos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeV8NW-o6uPtAJIx3FtDffWwwFL3oOUOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
