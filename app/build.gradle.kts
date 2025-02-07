@@ -41,6 +41,10 @@ android {
     buildFeatures {
         compose = true
     }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion ="1.6.1"
+    }
 }
 
 dependencies {
@@ -53,6 +57,13 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation (libs.androidx.navigation.compose) // Latest version as of Feb 2025
+    implementation (libs.androidx.core.ktx)
+    implementation (libs.androidx.navigation.compose.v286)
+    implementation (libs.androidx.material)
+    implementation (libs.androidx.compose.ui.ui)
+
+
 
     // Firebase dependencies (using BOM for version alignment)
     implementation(platform(libs.firebase.bom))
@@ -61,6 +72,10 @@ dependencies {
     implementation(libs.firebase.functions)
     implementation(libs.firebase.analytics)
     implementation (libs.google.firebase.firestore.ktx)
+
+    implementation (libs.play.services.location.v2130)
+    implementation (libs.firebase.firestore.ktx.v2512)
+    implementation (libs.firebase.auth.ktx)
 
 
 
