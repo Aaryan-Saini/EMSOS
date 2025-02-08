@@ -63,9 +63,19 @@ dependencies {
     implementation (libs.androidx.material)
     implementation (libs.androidx.compose.ui.ui)
 
+    implementation (libs.androidx.ui.v177)
+    implementation (libs.androidx.material.v177)
+    implementation (libs.ui.tooling.preview)
+    implementation (libs.androidx.navigation.compose.v273)
+    implementation (libs.androidx.core.ktx.v1120)
+    implementation (libs.firebase.firestore.ktx)
+    implementation (libs.play.services.location.v2101)
+    implementation (libs.androidx.lifecycle.runtime.compose)
 
 
-    // Firebase dependencies (using BOM for version alignment)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.google.firebase.auth)
+
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
@@ -78,13 +88,12 @@ dependencies {
     implementation (libs.firebase.auth.ktx)
 
 
-
     implementation(libs.firebase.firestore.ktx.v24101)
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.play.services.maps)
     implementation(libs.play.services.location)
+    implementation(libs.androidx.games.activity)
 
-    // Test dependencies
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
