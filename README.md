@@ -93,7 +93,6 @@ Follow the instructions to set up the **Emergency Response App** locally.
 | ------------- | --------------------------- |
 | **Aaryan Saini** | Project Lead (UI/UX, Firebase) |
 | **Charvi Koolwal**      | Backend & Machine Learning    |
-| **Anuj Mathur**        | Frontend Development (Android) |
 | **Shagun Sharma**      | Backend (API Development)     |
 
 ---
